@@ -21,6 +21,7 @@ Please follow our <a href="http://www.contributor-covenant.org/" target="_blank"
 - Registry in QRL
 - "omni" external scheme for Dat's Unwalled Garden spec
 - Depends on FrameworkJS modularization/components and its platform-aware rendering
+- bridges: deviantart+instagram+downloadedarchive+datphotoalbum
 
 ## Related links
 
