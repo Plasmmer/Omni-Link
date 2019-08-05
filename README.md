@@ -17,7 +17,7 @@ For example, posting omni-links as a comment on your Instagram photo, which also
 
 Namecoin is already a begin of Omni-Link: a .bit domain can link to multiple sources (www, zeronet, ipfs, dat, ssb). Same for Emercoin and ENS (Ethereum Name Service).
 
-## Adapt
+## Omni-Adapt
 
 Pages are rendered differently depending on platform (thanks to FrameworkJS).
 Instead of common elements, the ones you want to display only case on a specific platform (WWW, Dat, IPFS) you put into platform-specific tags.
@@ -26,13 +26,16 @@ It also enables to point different links depending on platform (on IPFS, point o
 
 A lot of use-cases can be applyed; it is platform-related localization of content and its links.
 
-## Recite
+## Omni-Recite
 
 Instead of duplicating the same text on same network (Omni-Link's purpose is to duplicate content on different platforms), get text from sources.
 
 With the Recite principle, you can get text in a Markdown doc or HTML site directly from a JSON file.
 
+## To implement in:
 
+- GoHugo and all site pages
+- Omni-Recite in Hugo profile page (includes photo URLs with Omni-Presence)
 
 ## Contributing
 
