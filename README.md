@@ -49,6 +49,7 @@ Please follow our <a href="http://www.contributor-covenant.org/" target="_blank"
 - Support QRL
 - bridges: deviantart+instagram+downloadedarchive+datphotoalbum
 - bridges: any post in peepeth is considered peepeth when "via" is empty or begins with "peepeth", read other "via" values / peepeth profiles stored in OrbitDB
+- browser extension for URL fallback (show if URL is available on other networks, rechognize fallback option in URL)
 
 ## Related links
 
