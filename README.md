@@ -11,9 +11,7 @@ Same content, linked in any place, also integrated with Plugzle.
 
 Same post/issue/content, linked in any network with JSON's "omni" array.
 
-Sites/content/social networks that doesn't natively supports omni-link, can also link.
-
-For example, posting omni-links as a comment on your Instagram photo, which also links to same DeviantArt one.
+Sites/content/social networks that doesn't natively supports omni-link, can also link: for example, posting omni-links as a comment on your Instagram photo, which also links to same DeviantArt one.
 
 Namecoin is already a begin of Omni-Link: a .bit domain can link to multiple sources (www, zeronet, ipfs, dat, ssb). Same for Emercoin and ENS (Ethereum Name Service).
 
