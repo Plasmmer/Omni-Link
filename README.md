@@ -26,7 +26,7 @@ A lot of use-cases can be applyed; it is platform-related localization of conten
 
 ## Omni-Recite
 
-Instead of duplicating the same text on same network (Omni-Link's purpose is to duplicate content on different platforms), get text from sources.
+Instead of duplicating the same text on same network (Omni-Link's purpose is to duplicate content only on different platforms), it gets text from sources.
 
 With the Recite principle, you can get text in a Markdown doc or HTML site directly from a JSON file.
 
