@@ -35,6 +35,10 @@ With the Recite principle, you can get text in a Markdown doc or HTML site direc
 - GoHugo and all site pages
 - Omni-Recite in Hugo profile page (includes photo URLs with Omni-Presence)
 
+## It also supports:
+
+* [IPLD](https://ipld.io/)
+
 ## Contributing
 
 This is a open-source and accessible spec, so you're welcome to open a issue (with criticism/suggestions) and open pull requests with improvements.
