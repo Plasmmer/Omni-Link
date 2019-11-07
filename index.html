@@ -1,0 +1,54 @@
+<head>
+  <title color="">GITorrent</title>
+<link href="fonts/WiredMono/font.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+<style>
+body{font-family: wired-mono,"tungsten",proxima-nova,ProximaNova-Bold,HelveticaNeue-Bold,"Helvetica Neue Bold","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;}
+</style>
+</head>
+<body>
+<img src="Logotype.png" alt="OmniLink" title="OmniLink">
+<br>
+<h1>Principles</h1>
+<h2>Omni-Presence</h2>
+<p>Same post/issue/content, linked in any network with JSON's "omni" array.</p>
+<p>Sites/content/social networks that doesn't natively supports omni-link, can also link: for example, posting omni-links as a comment on your Instagram photo, which also links to same DeviantArt one.</p>
+<p>Namecoin is already a begin of Omni-Link: a .bit domain can link to multiple sources (www, zeronet, ipfs, dat, ssb). Same for Emercoin and ENS (Ethereum Name Service).</p>
+<h2>Omni-Adapt</h2>
+<p>Pages are rendered differently depending on platform (thanks to FrameworkJS).
+Instead of common elements, the ones you want to display only case on a specific platform (WWW, Dat, IPFS) you put into platform-specific tags.</p>
+<p>It also enables to point different links depending on platform (on IPFS, point only to specific social networks).</p>
+<p>A lot of use-cases can be applyed; it is platform-related localization of content and its links.</p>
+<h2>Omni-Recite</h2>
+<p>Instead of duplicating the same text on same network (Omni-Link's purpose is to duplicate content only on different platforms), it gets text from sources.</p>
+<p>With the Recite principle, you can get text in a Markdown doc or HTML site directly from a JSON file.</p>
+
+<h1>To implement in:</h1>
+<ul>
+<li>Plugzlr</li>
+<li>Hugo and all site pages</li>
+<li>Omni-Recite in Hugo profile page (includes photo URLs with Omni-Presence)</li>
+</ul>
+
+<h1>It also supports:</h1>
+<ul>
+<li><a href="https://ipld.io/" target="blank">IPLD</a></li>
+</ul>
+
+<h1>Contributing</h1>
+<p>This is a open-source and accessible spec, so you're welcome to open a issue (with criticism/suggestions) and open pull requests with improvements.</p>
+<p>Please follow our <a href="http://www.contributor-covenant.org/" target="_blank">Code of Conduct</a> before interacting or contributing.</p>
+
+<hr><small>
+    <p>To do:</p>
+    <ul>
+<li>"omni" external scheme for Dat's Unwalled Garden spec</li>
+<li>Depends upon FrameworkJS modularization/components and its platform-aware rendering</li>
+<li>Support QRL</li>
+<li>bridges: deviantart+instagram+downloadedarchive+datphotoalbum</li>
+<li>bridges: any post in peepeth is considered peepeth when "via" is empty or begins with "peepeth", read other "via" values / peepeth profiles stored in OrbitDB</li>
+<li>browser extension for URL fallback (show if URL is available on other networks, rechognize fallback option in URL)</li>
+</ul>
+</small>
+</body>
